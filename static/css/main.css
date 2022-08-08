@@ -1,0 +1,71 @@
+body {
+    background-color:white;
+    text-align: center;
+}
+p {
+    font-size:30px;
+    color:cornflowerblue;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+input{
+    width: 250px;
+    margin-bottom: 20px;
+    height: 50px;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 1.3em;
+}
+#greet{
+    background-color: palevioletred;
+    width: 120px;
+}
+
+#greet:hover{
+    background-color: mediumvioletred;
+    cursor: pointer;
+}
+
+input:focus{
+    border: solid 5px cyan;
+    outline: none;
+}
+
+#good{
+    background-image:url('https://static.vecteezy.com/system/resources/previews/005/276/434/original/group-of-cute-kawaii-animals-with-say-have-a-good-day-background-wallpaper-cover-banner-free-vector.jpg');
+    background-size: 1564px 768px;
+    background-repeat: no-repeat;
+}
+#osm{
+    background-image: url('https://besthqwallpapers.com/Uploads/3-8-2020/139146/thumb2-have-an-awesome-day-motivation-inspiration-creative-3d-art-smile-icon.jpg');
+    background-size: 1564px 768px;
+    background-repeat: no-repeat;
+}
+
+#g_day{
+    font-size:60pt;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align:left;
+    margin-top: 32pc;
+}
+#bye{
+    background-color: palevioletred;
+    width: 120px;
+    height: 50px;
+    border-radius: 20px;
+    margin: 0 10px;
+    position: absolute;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    top:84%;
+    left: 0;
+    text-align: center;
+    font-size: 1.3em;
+    border: none;
+  
+
+}
+#bye:hover{
+    background-color: mediumvioletred;
+    cursor: pointer;
+}

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/static/css/main.css">
+    <title>SAY HELLO!</title>
+</head>
+<body>
+    <img src="https://us.123rf.com/450wm/tintin75/tintin751403/tintin75140300068/27373787-two-businessmen-say-hello-they-will-do-a-deal.jpg?ver=6"> 
+    <br>
+    <form action="greet" method="post">
+        {% for message in get_flashed_messages()%}
+            <p>{{message}}</p>
+        {% endfor %}
+        <br>
+        <input type="text" name="inp_name">
+        <br>
+        <input type="submit" value="GREET" id = "greet">
+    </form>
+         
+</body>
+</html>
